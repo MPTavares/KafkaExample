@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API</name>
+    </assembly>
+    <members>
+        <member name="M:APIs.Controllers.UserController.SendMessageUserCreated(Core.UserPayload)">
+            <summary>
+            Create a user sending the data to topic kafka "CREATE_USER".
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APIs.Controllers.UserController.SendMessageWelcomeEmail(Core.UserPayload)">
+            <summary>
+            Send message to topic kafka "WELCOME_EMAIL".
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
